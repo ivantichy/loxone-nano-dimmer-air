@@ -77,7 +77,7 @@ I got my hands on an updated HW with a different optocoupler with an external ba
 
 Simply adding a 100n capacitor over M2 solves the problem. The problem with high dV/dt on M2 is that GND is actually floating, and when M2 closes, GND goes up by 300V at high speed, causing interference and oscillations/ringing. The proper solution is to add a small RCD snubber circuit similar to the one used in switching power supplies.
 
-![image](https://github.com/ivantichy/loxone-nano-dimmer-air/assets/11446854/402d41aa-29bc-448e-af73-d82d269d94e5)
+![image](https://github.com/ivantichy/loxone-nano-dimmer-air/assets/11446854/deeef946-a2c2-47ca-9917-960053b3ee52)
 
 Dimmer with added 100n capacitor:
 
